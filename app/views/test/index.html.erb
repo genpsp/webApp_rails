@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+	<h1>TOP</h1>
+	<% if user_signed_in? %>
+	<div class="btn btn-default" role="button"><%= link_to 'ログアウト', destroy_user_session_path , :method => :delete %></div>
+	<% elsif %>
+	<a href="/users/sign_in" class="btn btn-default" role="button">ログイン</a>
+	<% end %>
+</body>
+</head>
+</html>

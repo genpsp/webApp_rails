@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+	<h1>商品一覧</h1>
+	<%= form_tag('/itemDetail', method: :get) do %>
+	<table>
+	<tr>
+		<th>No</th>
+		<th>画像</th>
+		<th>商品名</th>
+		<th>価格(円)</th>
+		<th></th>
+	</tr>
+	<% @items.each do |item| %>
+	<tr>
+		<td><%= item.id %></td>
+		<td><img src=<%= item.img %> height=100 width=100></td>
+		<td><%= item.name %></td>
+		<td><%= item.price %></td>
+		<td>
+		<%= link_to "詳細", {:controller => :item, :action => :itemDetail, :id => item.id}, :method => :post %>
+		</td>
+	</tr>
+	<% end %>
+	</table>
+	<% end %>
+</body>
+</head>
+</html>
