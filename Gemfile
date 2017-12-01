@@ -25,6 +25,9 @@ gem 'bootstrap-generators'
 gem 'record_tag_helper', '~> 1.0'
 gem 'rails_admin'
 gem 'pg', :group => :production
+# for api
+gem 'grape'
+gem 'grape-jbuilder'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
