@@ -1,5 +1,5 @@
 require 'grape'
-require 'hashie/hash'
+# require 'hashie/hash'
 require 'jbuilder'
 require 'tilt'
 require 'tilt/jbuilder.rb'
