@@ -1,3 +1,3 @@
 json.items @items do |item|
-  json.(item, :id, :name)
+  json.(item, :Id, :Name)
 end

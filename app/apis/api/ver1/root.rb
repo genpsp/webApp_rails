@@ -5,7 +5,7 @@ module API
       version 'v1', using: :path
       format :json
 
-      mount API::Ver1::Item
+      mount API::Ver1::Items
 
     end
   end

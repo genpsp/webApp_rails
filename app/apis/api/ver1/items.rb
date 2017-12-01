@@ -1,11 +1,11 @@
 module API
   module Ver1
-    class Item < Grape::API
+    class Items < Grape::API
       format :json
 
       # /api/v1/users/
       get '/items' do
-        @Items = Item.all
+        @items = Item.all
       end
 
     end
