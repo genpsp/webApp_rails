@@ -1,0 +1,15 @@
+current directory: /Users/umegakigen/gitProjects/testProject/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/Users/umegakigen/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20171201-2009-o4ou0o.rb extconf.rb
+creating Makefile
+
+current directory: /Users/umegakigen/gitProjects/testProject/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/umegakigen/gitProjects/testProject/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/umegakigen/gitProjects/testProject/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20171201-2009-18yak9b/bindex
